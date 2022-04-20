@@ -1,0 +1,71 @@
+.flatDivMain {
+  height: 90vh;
+  display: flex;
+
+  /* top: 10vh; */
+  background-color: rgb(255, 250, 250);
+}
+.fdiv {
+  width: 20%;
+  height: 100%;
+  /* background-color: rgb(225, 125, 125); */
+  border-right: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fdiv > h2 {
+  margin-top: 50px;
+}
+.fdiv > select {
+  width: 60%;
+  padding: 10px;
+}
+
+.sdiv {
+  width: 80%;
+  height: 100%;
+}
+TableContainer {
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+}
+.flatImg {
+  width: 200px;
+  height: 100px;
+}
+
+TableHead {
+  position: sticky;
+  top: 10vh;
+}
+
+#pagi {
+  height: 10vh;
+}
+#pagi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+Pagination {
+  color: white;
+}
+
+.box {
+  margin-top: 50px;
+}
+
+.flatadd {
+  text-decoration: none;
+  margin-top: 50px;
+  background-color: black;
+  padding: 15px 40px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
